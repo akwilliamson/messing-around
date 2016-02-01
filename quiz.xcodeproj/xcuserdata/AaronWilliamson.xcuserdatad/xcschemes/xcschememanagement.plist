@@ -9,10 +9,25 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>quizUITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>97E124671C5D6D1F0047FD44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>97E1248E1C5EBCA90047FD44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>97E1249C1C5EBCBF0047FD44</key>
 		<dict>
 			<key>primary</key>
 			<true/>
