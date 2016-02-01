@@ -491,6 +491,7 @@
 				97E124971C5EBCA90047FD44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97E124A41C5EBCBF0047FD44 /* Build configuration list for PBXNativeTarget "quizUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +500,7 @@
 				97E124A61C5EBCBF0047FD44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
