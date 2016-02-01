@@ -9,6 +9,8 @@
 import XCTest
 
 class quizUITests: XCTestCase {
+    
+    let app = XCUIApplication()
         
     override func setUp() {
         super.setUp()
@@ -28,9 +30,19 @@ class quizUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testQuestionButtonExists() {
+        let questionButton = app.buttons["Next Question"]
+        XCTAssertTrue(questionButton.exists, "Question button does not exist")
+    }
+    
+    func testAnswerButtonExists() {
+        let answerButton = app.buttons["Show Answer"]
+        XCTAssertTrue(answerButton.exists, "Answer button does not exist")
+    }
+    
+    func testCheckLabelsExist() {
+        let label = app.staticTexts["???"]
+        XCTAssertTrue(label.exists, "Labels do not exist")
     }
     
 }
